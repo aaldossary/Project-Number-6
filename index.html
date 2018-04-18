@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Project-6</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="allInHere">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
+  <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <ul class="main-nav">
+
+    <li class="active"><a href="#"> Home</a></li>
+    <li><a href=""> SERVICE </a></li>
+    <li><a href="#"> ABOUT </a></li>
+    <li><a href="#"> NEWS </a></li>
+    <li><a href="#"> CONTACT </a></li>
+  </ul>
+
+  <div class="lightbox">
+    <div class="popUpBox">
+
+      <div class="welcomeM">
+
+        <h3>Hello there!</h3><br>
+        <p> welcome to my new web page.</p>
+      </div>
+
+      <button class="buttonInModal goToSite">
+		  Continue to site
+		</button>
+    </div>
+  </div>
+
+  <div class="lowerRight">
+    <h2>Information</h2>
+    <hr>
+    <p>My Beautiful page has greyscale background. And Navigation on top right. This's a project-6 in Web Development class. </p>
+  </div>
+
+  <button class="myInfo" onclick="typeWriter()">Click for My Information</button>
+
+  <p id="showMyInfo"></p>
+
+  <div class="toPopUplogin">
+
+    <button id="toOpenLogin" onclick="document.getElementById('loginModal').style.display='block'" style="width:auto;">Login</button>
+
+    <div id="loginModal" class="modal">
+
+      <form class="modal-content animate" action="/action_page.php">
+        <div class="closeButtonX">
+          <span onclick="document.getElementById('loginModal').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+        </div>
+
+        <div class="containerInput">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit">Login</button>
+
+        </div>
+
+        <div class="containerCancelButton">
+          <button type="button" onclick="document.getElementById('loginModal').style.display='none'" class="cancelbtn">Cancel</button>
+
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
