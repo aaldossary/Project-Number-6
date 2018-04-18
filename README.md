@@ -14,5 +14,9 @@
 
 #6- I made I button on the bottom left the says "click me for my information", once you have clicked will get my name and my emil (animation) in jquery.
 
+#7- I download the files from CodePen.
+
+#8- upload the files in github.
+
 
 */
