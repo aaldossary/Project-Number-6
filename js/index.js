@@ -14,7 +14,7 @@ $(document).ready(function() {
 });
 
 var i = 0;
-var txt = "aaldossary, Abdullah Email: aaldossary@una.edu.";
+var txt = "Aldossary, Abdullah Email: aaldossary@una.edu.";
 var speed = 50;
 
 function typeWriter() {
